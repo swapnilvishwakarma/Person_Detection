@@ -1,4 +1,4 @@
-# Person Detection
+# Person Detection 👶👩🧍
 
 Using TensorFlow 2 Detection Model Zoo, we can easily use it for person detection task.
 It provides a collection of pre-trained models on the COCO 2017 dataset, which can be downloaded from [here](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md).
