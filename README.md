@@ -35,7 +35,7 @@ Of course, this isn't a comprehensive list, but it does include some of the most
 1. Download the Dockerfile from this repo ( `git clone https://github.com/swapnilvishwakarma/Person_Detection.git` ) - Note: It uses tensorflow docker image which is compatible with arm64 architecture only, i.e. for M1 based Macs.
 2. Go to the `Person_Detection` directory ( `cd Person_Detection` )
 3. Build the docker image ( `docker build -t person_detection .` )
-4. Run the docker image ( `docker run -it -p 8888:8888 -v $(pwd):/home/ubuntu/Person_Detection person_detection` )
+4. Run the docker image ( `docker run -it -p 8080:8080 -v $(pwd):/home/ubuntu/Person_Detection person_detection` )
 5. You can add required arguments after the docker run command to run the program accordingly.
 
 ## 5. Want some demo?
